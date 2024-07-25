@@ -1804,10 +1804,11 @@ a.linkedin-bg:hover {
   .reg-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: left;
     width: 300px;
     padding: 20px ;
-    margin: auto ;
+    margin:  auto ;
     border-radius: 10px;
   }
   .reg-text h1 {
@@ -1821,6 +1822,7 @@ a.linkedin-bg:hover {
   label {
     display: block;
     margin-bottom: 5px;
+
   }
   .reg-log{
     font-weight: 550;
@@ -1829,4 +1831,48 @@ a.linkedin-bg:hover {
 .reg-log:hover{
     color: #1b94f7;
 }
+.search{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 300px;
+    padding: 20px ;
+    margin: auto ;
+    border-radius: 10px;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin:  auto;
+        width: 400px;
+        padding: 20px;
+        
+        border-radius: 5px;
+    
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+ .search-text h1{
+    font-weight: bold;
+    /* font-size: 100px; */
+    margin-top:  150px  ;
+    position: relative;
+    text-align:center;
+    color: rgba(218, 142, 1, 0.678)
+}
+ .search-image {
+    padding: 20px;
+    margin: 5px ;
+ }
+ input[type="file"] {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+ 
  
