@@ -721,8 +721,7 @@ html, body {
 .slicknav_open .slicknav_arrow,
 .slicknav_nav > li a:hover {
     background-color: transparent;
-    color: #6fc754;
-}
+font-weight: bold;}
 
 .navbar-toggle {
     border-color: #fff;
@@ -1665,7 +1664,7 @@ a.linkedin-bg:hover {
 }
 .log-reg{
     font-weight: 550;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 .log-reg:hover{
     color: #1b94f7;
@@ -1747,8 +1746,9 @@ a.linkedin-bg:hover {
   }
   
   
-  input[type="email"],input[type="password"],
-  input[type="text"] {
+  input[type="email"],
+  input[type="password"],
+  input[type='text']{
     width: 100%;
     height:40px ;
     margin-bottom: 13px ;
@@ -1787,6 +1787,7 @@ a.linkedin-bg:hover {
     
   }
   /* regstration */
+  
   .register-container {
     
         display: flex;
@@ -1814,7 +1815,7 @@ a.linkedin-bg:hover {
   .reg-text h1 {
     font-weight: bold;
     font-size: 100px;
-    margin-top:  50px  ;
+    margin-top:  130px  ;
     position: relative;
     text-align:center;
     color: rgba(218, 142, 1, 0.678)
@@ -1831,7 +1832,16 @@ a.linkedin-bg:hover {
 .reg-log:hover{
     color: #1b94f7;
 }
-.search{
+/* search page */
+.search { 
+    background: url(../img/search_bg.jpg) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+  }
+.search-form{
+    
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -1843,26 +1853,22 @@ a.linkedin-bg:hover {
 .search-container {
     display: flex;
     flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
         margin:  auto;
         width: 400px;
         padding: 20px;
-        
         border-radius: 5px;
-    
-  }
-  
-  .search-results {
+}
+ 
+.search-results {
     margin-top: 20px;
-  }
+}
  .search-text h1{
     font-weight: bold;
-    /* font-size: 100px; */
-    margin-top:  150px  ;
+    margin-top:  250px  ;
     position: relative;
     text-align:center;
-    color: rgba(218, 142, 1, 0.678)
+    color: rgba(255, 255, 255, 0.897)
 }
  .search-image {
     padding: 20px;
@@ -1874,5 +1880,17 @@ a.linkedin-bg:hover {
     cursor: pointer;
     margin-bottom: 10px;
   }
- 
+ .search input[type='text']{
+    width: 100%;
+    height:40px ;
+    margin-bottom: 13px ;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing:border-box;
+    border-color:   #575757;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.534);
+ }
  
